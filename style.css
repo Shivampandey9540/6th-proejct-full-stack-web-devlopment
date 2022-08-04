@@ -1,0 +1,104 @@
+
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: allerta;
+}
+#navbarMonstera{
+    grid-template-columns: 14% 66% 20%;
+    display: grid;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 53px;
+}
+#navMid{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 62px;
+    width: 100%;
+    align-items: center;
+}
+#navEnd{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 53px;
+    width: 100%;
+    align-items: center;
+}
+#midWhole{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+#midWholePart1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left:100px;
+}
+
+#midWholePart13{
+    gap:46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.midWholePart13Parts{
+    width: 324px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#midWholePart12{
+    width: 100%;
+    display: flex;
+    padding-left: 86px;
+    justify-content: flex-start
+}
+
+ #midWholePart121{
+
+    display: flex;
+    color: white;
+    text-align: center;
+   
+    width: 259px;
+    border-radius: 33px;
+    height: 53px;
+    background-color: green;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+
+
+#midWholePart121 > div > h1 {   
+    font-size: 45px;
+    font-weight: 100;
+    font-family: Abel;
+}
+#midWholePart122 > img {
+    width: 100%;
+    padding-top: 5px;
+}
+
+#midWholePart11 > div {
+    width: 90%;
+}
+
+#monstera{
+    font-size: 7vw;
+    color: #000000;
+}
+#midWholePart11 > div > ul > li {
+    color:#808080;
+}
+
+
+#imgMain{
+    width: 100%;
+    object-fit: scale-down;
+}
